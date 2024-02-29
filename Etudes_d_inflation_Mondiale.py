@@ -9,4 +9,7 @@ from sklearn.model_selection import train_test_split
 df = pd.read_csv(r"C:\Users\yacin\Desktop\ETudes de l'inflation Mondiale\global_inflation_data.csv")
 
 # Afficher les dix premières lignes
+print(df.head())
+
 df.info()
+
